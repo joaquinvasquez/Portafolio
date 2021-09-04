@@ -1,0 +1,264 @@
+body{
+    background: #f2f2f2;
+    color: #434758;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+.dark{
+    background: #434758;
+}
+
+
+header{
+    background: #e76f51;
+}
+@media (max-width: 550px){
+    header {
+        padding-bottom: 40px;
+    }
+}
+
+nav i{
+    font-size: 75px;
+    padding: 13px 0;
+    margin-right: 50px;
+}
+@media (max-width: 1200px){
+    .col-xl-5{
+        text-align: center;
+    }
+}
+.nombre{
+    display: inline-block;
+    padding: 8px 10px 10px;
+    box-shadow: 2px 2px 1px #434758;
+    border-radius: 7px;
+    margin: auto;
+}
+.nombre h1{
+    margin: 0;
+}
+.nombre h3{
+    margin: 0;
+}
+.btn{
+    margin: 33px auto;
+}
+nav a{
+    background: #434758;
+    color: #e76f51;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative;
+}
+nav a:hover{
+    color: #f2f2f2;
+}
+.switch-cont{
+    margin: 0;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.switch{
+    background: #434758;
+    border: none;
+    border-radius: 1000px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    margin: auto;
+}
+.izq .switch::after{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: #f2f2f2;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.der .switch::after{
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    background: #f2f2f2;
+    top: 0;
+    left: unset;
+    right: 0;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.switch span{
+    width: 25px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+}
+.switch i{
+    font-size: 16px;
+    padding: 5px 0px;
+    margin: 0;
+}
+.fa-sun{
+    color: #e76f51;
+}
+.fa-moon{
+    color: #f2f2f2;
+}
+
+
+.splash{
+    margin: 20px;
+    width: auto;
+    height: 70vh;
+    background: url(../images/fondo.png) center center fixed;
+    background-size: cover;
+}
+.call{
+    margin-top: 20vh;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    align-items: center;
+}
+.call h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+@media (max-width: 450px){
+    .call h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 350px){
+    .call h1{
+        font-size: 25px;
+    }
+    .call h2{
+        font-size: 16px !important;
+    }
+}
+.call h2{
+    font-size: 20px;
+}
+
+section .col-md-12 h1{
+    background: #ccc;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 30px 50px;
+    margin: 20px 0px;
+}
+
+section .card{
+    padding: 30px;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+section .card h3{
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+.hab .card{
+    align-items: center;
+}
+.hab i{
+    font-size: 80px;
+}
+
+.info{
+    font-size: 20px;
+    text-align:  justify;
+}
+.info-dark{
+    color: #ccc;
+}
+
+.proyectos .card{
+    height: 250px;
+}
+.proyectos .card a{
+    color: #e76f51;
+}
+
+
+
+footer{
+    padding: 50px;
+    padding-top: 30px;
+    background: #e76f51;
+    text-transform: uppercase;
+    color: #434758;
+    font-weight: bold;
+    font-size: 18px; 
+}
+footer .col-md-12 h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+footer i{
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #434758;
+    padding: 20px;
+}
+footer a:hover{
+    color: white;
+}
+
+
+.boton_volver{
+    position: fixed;
+    bottom: 2vh;
+    right: 2vw;
+    text-align: right;
+    margin-top: 50px;
+}
+.boton_volver .col-md-12{
+    padding: 20px 15px;
+}
+.boton_volver a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.btn-volver{
+    background: #434758;
+    color: #f2f2f2;
+}
+.btn-volver-dark{
+    background: #f2f2f2;
+    color: #434758;
+}
+.boton_volver a:hover{
+    color: #e76f51;
+}
+
+
+.space{
+    margin-top: 180px;
+}

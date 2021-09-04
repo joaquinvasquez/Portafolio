@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/a9b07b8121.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Portafolio Joaquin Vasquez</title>
+    </head>
+
+
+    <body onload="cargaTema()">
+        <header>
+            <nav id="arriba">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-1"></div>
+                        <div class="col-xl-5">
+                            <i class="fas fa-code"></i>
+                            <div class="nombre">
+                                <h1>Desarrollador Jr</h1>
+                                <h3>Joaquin Vasquez</h3>
+                            </div>
+                        </div>
+                        <div class="col-sm-1"></div>
+                        <div class="col-sm-1 btn"><a href="#sobre_mi">Sobre&#160;m&#237;</a></div>
+                        <div class="col-sm-1 btn"><a href="#mis_proyectos">Proyectos</a></div>
+                        <div class="col-sm-1 btn"><a href="#contacto">Contacto</a></div>
+                        <div class="col-sm-1 switch-cont izq" id="cambio-boton">
+                            <button class="switch" id="switch">
+                                <span><i class="fas fa-sun"></i></span>
+                                <span><i class="fas fa-moon"></i></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section class="splash">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="call">
+                            <h2>Hola! Soy Joaquin Vasquez</h2>
+                            <h1>Desarrollador Web</h1>
+                            <h2>Pas&#225; a conocerme!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hab space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="sobre_mi">Habilidades</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-html5"></i>
+                            <h3>HTML5</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-css3"></i>
+                            <h3>CSS3</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-js"></i>
+                            <h3>JavaScript</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-react"></i>
+                            <h3>ReactJS</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-bootstrap"></i>
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="80" viewBox="0 0 32 32" width="70">
+                                <path d="M19.62 11.558l-3.203 2.98-2.972-5.995 1.538-3.448c.4-.7 1.024-.692 1.414 0z" fill="#434758"/>
+                                <path d="M13.445 8.543l2.972 5.995-11.97 11.135z" fill="#f2f2f2"/>
+                                <path d="M23.123 7.003c.572-.55 1.164-.362 1.315.417l3.116 18.105-10.328 6.2c-.36.2-1.32.286-1.32.286s-.874-.104-1.207-.3L4.447 25.673z" fill="#434758"/>
+                                <path d="M13.445 8.543l-8.997 17.13L8.455.638c.148-.78.592-.855.988-.167z" fill="#434758"/>
+                            </svg>
+                            <h3>Firebase</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <i class="fab fa-python"></i>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 mt-4">
+                        <div class="card">
+                            <svg width="70" height="80" viewBox="0 0 256 288" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                                <path d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761-2.052-3.602-5.125-6.621-9.247-9.008-34.025-19.619-68.083-39.178-102.097-58.817-9.17-5.294-18.061-5.101-27.163.269C100.395 12.39 32.59 51.237 12.385 62.94 4.064 67.757.015 75.129.013 84.711 0 124.166.013 163.62 0 203.076c.002 4.724.991 8.909 2.988 12.517 2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252 1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#f2f2f2"/>
+                                <path d="M128.182 143.509L2.988 215.593c2.053 3.711 5.169 6.813 9.386 9.254 20.206 11.703 88.02 50.547 101.56 58.536 9.106 5.373 17.997 5.565 27.17.269 34.015-19.64 68.075-39.198 102.105-58.817 4.217-2.44 7.333-5.544 9.386-9.252l-124.413-72.074" fill="#d1d1d1"/>
+                                <path d="M91.101 164.861c7.285 12.718 20.98 21.296 36.69 21.296 15.807 0 29.58-8.687 36.828-21.541l-36.437-21.107-37.081 21.352" fill="#d1d1d1"/>
+                                <path d="M255.569 84.72c-.002-4.83-1.035-9.098-3.124-12.761l-124.263 71.55 124.413 72.074c1.994-3.608 2.985-7.793 2.987-12.518 0 0 0-78.889-.013-118.345" fill="#e1e1e1"/>
+                                <path d="M248.728 148.661h-9.722v9.724h-9.724v-9.724h-9.721v-9.721h9.721v-9.722h9.724v9.722h9.722v9.721M213.253 148.661h-9.721v9.724h-9.722v-9.724h-9.722v-9.721h9.722v-9.722h9.722v9.722h9.721v9.721" fill="#434758"/>
+                                <path d="M164.619 164.616c-7.248 12.854-21.021 21.541-36.828 21.541-15.71 0-29.405-8.578-36.69-21.296a42.062 42.062 0 0 1-5.574-20.968c0-23.341 18.923-42.263 42.264-42.263 15.609 0 29.232 8.471 36.553 21.059l36.941-21.272c-14.683-25.346-42.096-42.398-73.494-42.398-46.876 0-84.875 38-84.875 84.874 0 15.378 4.091 29.799 11.241 42.238 14.646 25.48 42.137 42.637 73.634 42.637 31.555 0 59.089-17.226 73.714-42.781l-36.886-21.371" fill="#434758"/>
+                            </svg>
+                            <h3>C++</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="info space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Sobre m&#237;</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8" id="info">
+                        <p>
+                            Soy argentino, tengo 21 años, soy estudiante de
+                            ingenier&#237;a en Sistemas en la UTN Regional Bs. As. 
+                            y estoy buscando mi primer empleo como 
+                            desarrollador. Me considero comprometido y
+                            responsable con mis obligaciones. Soy organizado,
+                            met&#243;dico y conciliador.
+                        </p>
+                        <p>
+                            Lamentablemente todav&#237;a no cuento con experiencia
+                            laboral formal como desarrollador, pero estoy dispuesto 
+                            a asumir el desaf&#237;o de incorporarme a una
+                            organizaci&#243;n para aportar todo lo que sea posible desde
+                            mi lugar, as&#237; como tambi&#233;n ampliar mis conocimientos y
+                            habilidades. Me siento c&#243;modo trabajando por mi
+                            cuenta, pero tambi&#233;n me gusta tener la mejor
+                            predisposici&#243;n para trabajar en equipo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="proyectos space">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 id="mis_proyectos">Mis Proyectos</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 mt-4">
+                            <div class="card">
+                                <h3>Reloj Digital</h3>
+                                <hr>
+                                <p>Proyecto simple creado con JS</p>
+                                <a href="proyectos/reloj_digital/index.html" target="_blank">Link Ac&#225;</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-4">
+                            <div class="card">
+                                <h3>Manejo de Dinero</h3>
+                                <hr>
+                                <p>algo aca</p>
+                                <a href="proyectos/app_dinero/index.html" target="_blank">Link Ac&#225;</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-4">
+                            <div class="card">
+                                <h3>Gestor de Clientes</h3>
+                                <hr>
+                                <p>algo aca</p>
+                                <a href="proyectos/gestor_clientes/index.html" target="_blank">Link Ac&#225;</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 mt-4">
+                            <div class="card">
+                                <h3>Gestor de Tareas</h3>
+                                <hr>
+                                <p>algo aca</p>
+                                <a href="proyectos/gestor_tareas/index.html" target="_blank">Link Ac&#225;</a>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <footer class="space">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 id="contacto">Si quer&#233;s que trabajemos juntos, no dudes en contactarme por:</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <a href="https://www.linkedin.com/in/joaquin-vasquez/" target="_blank">
+                            <i class="fab fa-linkedin"></i>LinkedIn</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="https://www.instagram.com/joacovasquezzz/" target="_blank">
+                        <i class="fab fa-instagram"></i>Instagram</a>
+                    </div>
+                    <div class="col-sm-4">
+                        <a href="mailto:joaquinvasquez20@gmail.com?subject=Contacto desde mi Portfolio - Joaquin Vasquez">
+                        <i class="far fa-envelope"></i>Correo electr&#243;nico</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div class="row boton_volver">
+            <div class="col-md-12">
+                <a href="#arriba" id="volver" class="btn-volver"><i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
+

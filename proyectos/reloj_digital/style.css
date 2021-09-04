@@ -1,0 +1,25 @@
+body{
+    background: #e3e3e3;
+    color: #434758;
+    min-height: 400vh;
+}
+
+header{
+    margin: 20px;
+}
+
+.center{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card{
+    background: rgba(100, 100, 150, 1);
+    color: white;
+    padding: 16px;
+    letter-spacing: 5px;
+}
+
+.animar{
+    background: rgba(100, 100, 150, 0.8);
+}
