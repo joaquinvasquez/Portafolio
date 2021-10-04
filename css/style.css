@@ -177,6 +177,9 @@ section .card{
     border-radius: 3px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
+section .card:hover{
+    transform: scale(1.1, 1.1);
+}
 section .card h3{
     font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;

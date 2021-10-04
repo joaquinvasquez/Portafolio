@@ -1,7 +1,8 @@
 body{
     background: #e3e3e3;
     color: #434758;
-    min-height: 400vh;
+    height: 100%;
+    width: 100%;
 }
 
 header{
