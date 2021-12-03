@@ -293,3 +293,7 @@ footer a:hover{
 .space{
     margin-top: 180px;
 }
+
+.oculto{
+    display: none;
+}
