@@ -1,230 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <script src="https://kit.fontawesome.com/a9b07b8121.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
-        <title>Portafolio Joaquin Vasquez</title>
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a9b07b8121.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio Joaquin Vasquez</title>
+    <link rel="icon" href="images/icono.png" type="image.png">
+
+    <meta name='description' content='Mi primer portfolio'>
+    <meta name='keywords' content='portfolio, joaquin vasquez, desarrollador'>
+    <meta name='author' content='Joaquin Vasquez'>
+    <meta name='copyright' content='Joaquin Vasquez 2022'>
+    <meta property="og:title" content="Portafolio Joaquin Vasquez">
+    <meta property="og:description" content="Informacion y proyectos hechos por Joaquin Vasquez">
+    <meta property="og:type" content="Portafolio">
+    <meta property="og:url" content="https://www.linkedin.com/in/joaquin-vasquez/">
+    <meta property="og:image" content="/images/fondo.png">
+    <meta name="robots" content="index follow">
+</head>
 
 
-    <body onload="cargaTema()">
-        <header>
-            <nav id="arriba">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-1"></div>
-                        <div class="col-xl-5">
-                            <i class="fas fa-code"></i>
-                            <div class="nombre">
-                                <h1>Desarrollador Jr</h1>
-                                <h3>Joaquin Vasquez</h3>
-                            </div>
-                        </div>
-                        <div class="col-sm-1"></div>
-                        <div class="col-sm-1 btn"><a href="#sobre_mi">Sobre&#160;m&#237;</a></div>
-                        <div class="col-sm-1 btn"><a href="#mis_proyectos">Proyectos</a></div>
-                        <div class="col-sm-1 btn"><a href="#contacto">Contacto</a></div>
-                        <div class="col-sm-1 switch-cont izq" id="cambio-boton">
-                            <button class="switch" id="switch">
-                                <span><i class="fas fa-sun"></i></span>
-                                <span><i class="fas fa-moon"></i></span>
-                            </button>
+<body onload="cargaTema()">
+    <header>
+        <nav id="arriba">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-xl-5">
+                        <i class="fas fa-code"></i>
+                        <div class="nombre">
+                            <h1>Desarrollador Jr</h1>
+                            <h3>Joaquin Vasquez</h3>
                         </div>
                     </div>
-                </div>
-            </nav>
-        </header>
-
-        <section class="splash">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="call">
-                            <h2>Hola! Soy Joaquin Vasquez</h2>
-                            <h1>Desarrollador Web</h1>
-                            <h2>Pas&#225; a conocerme!</h2>
-                        </div>
+                    <div class="col-sm-1"></div>
+                    <div class="col-sm-1 btn"><a href="#sobre_mi">Sobre&#160;m&#237;</a></div>
+                    <div class="col-sm-1 btn"><a href="#mis_proyectos">Proyectos</a></div>
+                    <div class="col-sm-1 btn"><a href="#contacto">Contacto</a></div>
+                    <div class="col-sm-1 switch-cont izq" id="cambio-boton">
+                        <button class="switch" id="switch">
+                            <span><i class="fas fa-sun"></i></span>
+                            <span><i class="fas fa-moon"></i></span>
+                        </button>
                     </div>
                 </div>
             </div>
-        </section>
+        </nav>
+    </header>
 
-        <section class="hab space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 id="sobre_mi">Habilidades</h1>
+    <section class="splash">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="call">
+                        <h2>Hola! Soy Joaquin Vasquez</h2>
+                        <h1>Desarrollador Web</h1>
+                        <h2>Pas&#225; a conocerme!</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-html5"></i>
-                            <h3>HTML5</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-css3"></i>
-                            <h3>CSS3</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-js"></i>
-                            <h3>JavaScript</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-react"></i>
-                            <h3>ReactJS</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-2"></div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-bootstrap"></i>
-                            <h3>Bootstrap</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <img src="images/firebase.svg" alt="logo-firebase">
-                            <h3>Firebase</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <i class="fab fa-python"></i>
-                            <h3>Python</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2 mt-4">
-                        <div class="card">
-                            <img src="images/c++.svg" alt="logo-c++">
-                            <h3>C++</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-2"></div>
-                </div>
-            </div>
-        </section>
-
-        <section class="info space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Sobre m&#237;</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-8" id="info">
-                        <p>
-                            Soy argentino, tengo 22 años, estudio 
-                            ingenier&#237;a en Sistemas en la UTN Regional Bs. As. 
-                            y estoy buscando mi primer empleo como 
-                            desarrollador. Me considero comprometido y
-                            responsable con mis obligaciones. Soy organizado,
-                            met&#243;dico y conciliador.
-                        </p>
-                        <p>
-                            Lamentablemente todav&#237;a no cuento con experiencia
-                            laboral formal como desarrollador, pero estoy dispuesto 
-                            a asumir el desaf&#237;o de incorporarme a una
-                            organizaci&#243;n para aportar todo lo que sea posible desde
-                            mi lugar, as&#237; como tambi&#233;n ampliar mis conocimientos y
-                            habilidades. Me siento c&#243;modo trabajando por mi
-                            cuenta, pero tambi&#233;n me gusta tener la mejor
-                            predisposici&#243;n para trabajar en equipo.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="proyectos space">
-            <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 id="mis_proyectos">Mis Proyectos</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 mt-4">
-                            <div class="card">
-                                <h3>Reloj Digital</h3>
-                                <hr>
-                                <p>Proyecto simple de un reloj digital con animaci&#243;n</p>
-                                <a href="proyectos/reloj_digital/index.html" target="_blank">Link Ac&#225;</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mt-4">
-                            <div class="card">
-                                <h3>Manejo de Dinero</h3>
-                                <hr>
-                                <p>App que ayuda a llevar las cuentas al d&#237;a. Permite manejar ganancias y gastos.</p>
-                                <a href="proyectos/app_presupuesto/index.html" target="_blank">Link Ac&#225;</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mt-4">
-                            <div class="card">
-                                <h3>CrotoChat</h3>
-                                <hr>
-                                <p>Chat realtime utilizando Firebase Auth y DataBase con ReactJS</p>
-                                <a href="https://crotochat-91c57.web.app/" target="_blank">Link Ac&#225;</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 mt-4 oculto">
-                            <div class="card">
-                                <h3>Gestor de Tareas</h3>
-                                <hr>
-                                <p>algo aca</p>
-                                <a href="proyectos/gestor_tareas/index.html" target="_blank">Link Ac&#225;</a>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
-        <footer class="space">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1 id="contacto">Si quer&#233;s que trabajemos juntos, no dudes en contactarme por:</h1>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <a href="https://www.linkedin.com/in/joaquin-vasquez/" target="_blank">
-                            <i class="fab fa-linkedin"></i>LinkedIn</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="https://www.instagram.com/joacovasquezzz/" target="_blank">
-                        <i class="fab fa-instagram"></i>Instagram</a>
-                    </div>
-                    <div class="col-sm-4">
-                        <a href="mailto:joaquinvasquez20@gmail.com?subject=Contacto desde mi Portfolio - Joaquin Vasquez">
-                        <i class="far fa-envelope"></i>Correo electr&#243;nico</a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <div class="row boton_volver">
-            <div class="col-md-12">
-                <a href="#arriba" id="volver" class="btn-volver"><i class="fas fa-arrow-up"></i></a>
             </div>
         </div>
-        <script src="app.js"></script>
-    </body>
-</html>
+    </section>
 
+    <section class="hab space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="sobre_mi">Habilidades</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-css3"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-js"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-react"></i>
+                        <h3>ReactJS</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-bootstrap"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <img src="images/firebase.svg" alt="logo-firebase">
+                        <h3>Firebase</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2 mt-4">
+                    <div class="card">
+                        <img src="images/c++.svg" alt="logo-c++">
+                        <h3>C++</h3>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>Sobre m&#237;</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8" id="info">
+                    <p>
+                        Soy argentino, tengo 22 años, estudio
+                        ingenier&#237;a en Sistemas en la UTN Regional Bs. As.
+                        y estoy buscando mi primer empleo como
+                        desarrollador. Me considero comprometido y
+                        responsable con mis obligaciones. Soy organizado,
+                        met&#243;dico y conciliador.
+                    </p>
+                    <p>
+                        Lamentablemente todav&#237;a no cuento con experiencia
+                        laboral formal como desarrollador, pero estoy dispuesto
+                        a asumir el desaf&#237;o de incorporarme a una
+                        organizaci&#243;n para aportar todo lo que sea posible desde
+                        mi lugar, as&#237; como tambi&#233;n ampliar mis conocimientos y
+                        habilidades. Me siento c&#243;modo trabajando por mi
+                        cuenta, pero tambi&#233;n me gusta tener la mejor
+                        predisposici&#243;n para trabajar en equipo.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="mis_proyectos">Mis Proyectos</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mt-4">
+                    <div class="card">
+                        <h3>Reloj Digital</h3>
+                        <hr>
+                        <p>Proyecto simple de un reloj digital con animaci&#243;n</p>
+                        <a href="proyectos/reloj_digital/index.html" target="_blank">Link Ac&#225;</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card">
+                        <h3>Manejo de Dinero</h3>
+                        <hr>
+                        <p>App que ayuda a llevar las cuentas al d&#237;a. Permite manejar ganancias y gastos.</p>
+                        <a href="proyectos/app_presupuesto/index.html" target="_blank">Link Ac&#225;</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card">
+                        <h3>CrotoChat</h3>
+                        <hr>
+                        <p>Chat realtime utilizando Firebase Auth y DataBase con ReactJS</p>
+                        <a href="https://crotochat-91c57.web.app/" target="_blank">Link Ac&#225;</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4 oculto">
+                    <div class="card">
+                        <h3>Gestor de Tareas</h3>
+                        <hr>
+                        <p>algo aca</p>
+                        <a href="proyectos/gestor_tareas/index.html" target="_blank">Link Ac&#225;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="space">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="contacto">Si quer&#233;s que trabajemos juntos, no dudes en contactarme por:</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="https://www.linkedin.com/in/joaquin-vasquez/" target="_blank">
+                        <i class="fab fa-linkedin"></i>LinkedIn</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://www.instagram.com/joacovasquezzz/" target="_blank">
+                        <i class="fab fa-instagram"></i>Instagram</a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="mailto:joaquinvasquez20@gmail.com?subject=Contacto desde mi Portfolio - Joaquin Vasquez">
+                        <i class="far fa-envelope"></i>Correo electr&#243;nico</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="row boton_volver">
+        <div class="col-md-12">
+            <a href="#arriba" id="volver" class="btn-volver"><i class="fas fa-arrow-up"></i></a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
