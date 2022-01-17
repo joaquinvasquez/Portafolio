@@ -7,7 +7,7 @@ body{
     background: #434758;
 }
 
-
+center
 header{
     background: #e76f51;
 }
@@ -246,6 +246,9 @@ footer{
 footer .col-md-12 h1{
     font-size: 30px;
     margin-bottom: 30px;
+}
+footer .col-sm-4{
+    text-align: center;
 }
 footer i{
     padding: 5px;
