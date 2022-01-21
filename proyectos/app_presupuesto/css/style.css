@@ -43,7 +43,7 @@ button i{
 }
 
 .p-5{
-    background: #e7e7e7;
+    background: #bbb;
 }
 
 .center{text-align: center; }
@@ -57,7 +57,7 @@ header{
     width: 100%;
     padding: 150px 0px 100px;
     position: relative;
-    background: url(fondo.png), linear-gradient(to right, #dc2430, #7b4397) center center;
+    background: url(../images/fondo.png), linear-gradient(to right, #dc245b, #7b4397) center center;
     color: #fff;
 }
 
@@ -195,17 +195,6 @@ header{
 .contenedor {
     width: 860px;
     margin: 60px auto;
-}
-
-.ingreso {
-    float: left;
-    width: 370px;
-    margin-right: 70px;
-}
-
-.egreso {
-    float: left;
-    width: 370px;
 }
 
 h2 {
