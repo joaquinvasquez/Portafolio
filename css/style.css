@@ -15,15 +15,18 @@ header{
         padding-bottom: 40px;
     }
 }
+header .col-xl-5{
+    text-align: center;
+}
 
 nav i{
     font-size: 75px;
     padding: 13px 0;
     margin-right: 50px;
 }
-@media (max-width: 1200px){
-    .col-xl-5{
-        text-align: center;
+@media (max-width: 435px){
+    nav i{
+        margin: 0 50px;
     }
 }
 .nombre{
