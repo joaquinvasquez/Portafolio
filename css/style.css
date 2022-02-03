@@ -225,11 +225,9 @@ section .card h3 {
   color: #ccc;
 }
 
-.proyectos .card {
-  height: 280px;
-}
 .proyectos .card p {
-  height: 75px;
+  height: 90px;
+  margin-bottom: 24px;
 }
 .proyectos .card h3 {
   height: 80px;
@@ -238,6 +236,18 @@ section .card h3 {
 }
 .proyectos .card a {
   color: #e76f51;
+}
+@media only screen and (max-width: 992px) {
+  .proyectos .card {
+    height: 250px;
+  }
+  .proyectos .card p {
+    height: auto;
+    margin-bottom: auto;
+  }
+  .proyectos .card h3 {
+    height: auto;
+  }
 }
 
 footer {
