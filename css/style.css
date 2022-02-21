@@ -1,7 +1,7 @@
 body {
   background: #f2f2f2;
   color: #434758;
-  font-family: Calibri, "Trebuchet MS", sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 .dark {
   background: #434758;
@@ -9,60 +9,96 @@ body {
 
 header {
   background: #e76f51;
+  height: 70px;
 }
-@media (max-width: 550px) {
-  header {
-    padding-bottom: 40px;
-  }
-}
-header .col-xl-5 {
-  text-align: center;
+#inicio{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-nav i {
-  font-size: 75px;
-  padding: 13px 0;
-  margin-right: 50px;
+.nombre-cont{
+  display: flex;
+  align-items: center;
 }
-@media (max-width: 435px) {
-  nav i {
-    margin: 0 50px;
-  }
+.nombre-cont i{
+  font-size: 48px;
+  margin: 8px;
 }
 .nombre {
-  display: inline-block;
-  padding: 8px 10px 10px;
-  box-shadow: 2px 2px 1px #434758;
-  border-radius: 7px;
-  margin: auto;
+  margin: 0;
 }
 .nombre h1 {
   margin: 0;
+  font-size: 32px;
 }
-.nombre h3 {
+.nombre h2 {
   margin: 0;
+  font-size: 24px;
 }
-.btn {
-  margin: 33px auto;
+#dropdown{
+  display: none;
 }
-nav a {
+.links a{
   background: #434758;
   color: #e76f51;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 15px;
-  padding: 20px;
+  font-size: 14px;
+  padding: 8px 16px;
   border-radius: 3px;
-  position: relative;
+  margin: 0 8px 0 0;
 }
-nav a:hover {
+.links a:hover, .links a:active {
   color: #f2f2f2;
 }
+@media only screen and (max-width: 768px){
+  .links{
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    width: 100%;
+    background: #ccc;
+  }
+  .links-block{
+    display: block;
+  }
+  .links a, .links button{
+    display: block;
+    margin: 8px;
+  }
+  #dropdown{
+    display: block;
+    border: none;
+    border-radius: 3px;
+    background: #434758;
+    color: #e76f51;
+    height: 32px;
+    width: 32px;
+    padding: 0;
+    position: absolute;
+    right: 16px;
+    top: 18px;
+  }
+  #dropdown:active {
+    color: #f2f2f2;
+  }
+}
+@media only screen and (max-width: 425px){
+  .nombre h1 {
+    font-size: 24px;
+  }
+  .nombre h2 {
+    font-size: 16px;
+  }
+}
+
+/* MODO OSCURO */
 .switch-cont {
   margin: 0;
-  margin-top: 40px;
-  margin-right: 40px;
+  display: inline-block;
 }
 .switch {
   background: #434758;
@@ -71,8 +107,8 @@ nav a:hover {
   position: relative;
   cursor: pointer;
   outline: none;
-  display: flex;
-  margin: auto;
+  display: flex !important;
+  margin: 8px auto !important;
 }
 .izq .switch::after {
   content: "";
@@ -106,7 +142,6 @@ nav a:hover {
   width: 25px;
   height: 30px;
   line-height: 30px;
-  display: block;
   background: none;
 }
 .switch i {
@@ -121,6 +156,12 @@ nav a:hover {
   color: #f2f2f2;
 }
 
+@media only screen and (max-width: 768px){
+.switch-cont {
+  display: block;
+}
+}
+
 .splash {
   margin: 20px;
   width: auto;
@@ -128,22 +169,22 @@ nav a:hover {
   background: url(../images/fondo.png) center right fixed;
   background-size: cover;
 }
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .splash {
     background: url(../images/fondo2.png) center right fixed;
   }
 }
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .splash {
     background: url(../images/fondo3.png) center right fixed;
   }
 }
-/* @media (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .splash{
       background: url(../images/fondo2.png) center center fixed;
   }
 }
-@media (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .splash{
       background: url(../images/fondo4.png) center center fixed;
   }
@@ -162,17 +203,25 @@ nav a:hover {
 .call h2 {
   font-size: 20px;
 }
-@media (max-width: 450px) {
+@media only screen and (max-width: 800px) {
+  .call{
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ccc;
+    border-radius: 3px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 450px) {
   .call h1 {
     font-size: 35px;
   }
 }
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   .call h1 {
     font-size: 30px;
   }
 }
-@media (max-width: 400px) {
+@media only screen and (max-width: 400px) {
   .call h1 {
     font-size: 25px;
   }
@@ -272,7 +321,6 @@ footer i {
 footer a {
   text-decoration: none;
   color: #434758;
-  padding: 20px;
 }
 footer a:hover {
   color: white;
