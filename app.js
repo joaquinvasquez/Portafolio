@@ -45,5 +45,15 @@ cargaTema = function () {
 };
 
 document.getElementById("dropdown").addEventListener("click", () => {
-  document.querySelector(".links").classList.toggle('links-block');
+  document.querySelector(".links").classList.toggle("links-block");
+
+  document.getElementById("btn-sobre-mi").addEventListener("click", () => {
+    document.querySelector(".links").classList.remove("links-block");
+  });
+  document.getElementById("btn-mis-proyectos").addEventListener("click", () => {
+    document.querySelector(".links").classList.remove("links-block");
+  });
+  document.getElementById("btn-contacto").addEventListener("click", () => {
+    document.querySelector(".links").classList.remove("links-block");
+  });
 });
