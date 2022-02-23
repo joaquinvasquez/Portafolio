@@ -195,7 +195,7 @@ header {
   letter-spacing: 5px;
   text-transform: uppercase;
   align-items: center;
-  width: min-content;
+  width: fit-content;
 }
 .call h1 {
   font-size: 50px;
